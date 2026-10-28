@@ -4,6 +4,12 @@ A Codex skill for making reviewed, consistent presenter Reels in **Google Flow**
 
 The installable skill is [`gflow-batch-video`](gflow-batch-video/SKILL.md), displayed as **Google Flow Reels Studio**. This is an independent workflow, not an official Google or OpenAI product, and it does not promise perfect identity, voice matching or generation quality.
 
+## Demo
+
+A finished 40-second vertical reel made with this skill: five presenter scenes, the Achernar preset voice, synchronized word-highlighted captions, and local visible-logo removal. Turn on sound to hear the presenter.
+
+https://github.com/user-attachments/assets/880652eb-3649-44b8-84b0-f0dd140bad5f
+
 ## What the skill does
 
 - Starts with a complete script and scene-by-scene storyboard for review.
@@ -109,6 +115,6 @@ Include discarded takes and corrections in production totals. Distinguish estima
 
 Live UI controls are authoritative. Tool names do not establish a native batch API, saved-voice endpoint, automatic stitcher or supported setting. Stop on login, quota or policy blocks; inspect ambiguous submissions before retrying. Transcripts and still samples do not prove a perceptual voice/lip-sync match: when the agent cannot listen directly, obtain human playback review and disclose the limit.
 
-This repository contains reusable instructions and code only. It excludes personal profiles, account emails, private project URLs, usage logs and production media. Keep local account configuration outside this public repository. Human checkpoints remain script/storyboard review, reference/two-clip voice review, and final-cut review.
+This repository contains reusable instructions and code, plus the approved public demo linked above. It excludes personal profiles, account emails, private project URLs, usage logs and other production media. Keep local account configuration outside this public repository. Human checkpoints remain script/storyboard review, reference/two-clip voice review, and final-cut review.
 
 Licensed under [MIT](LICENSE).
