@@ -8,7 +8,9 @@ The installable skill is [`gflow-batch-video`](gflow-batch-video/SKILL.md), disp
 
 A finished 40-second vertical reel made with this skill: five presenter scenes, the Achernar preset voice, synchronized word-highlighted captions, and local visible-logo removal. Turn on sound to hear the presenter.
 
-https://github.com/user-attachments/assets/880652eb-3649-44b8-84b0-f0dd140bad5f
+<video src="https://github.com/TangledDaunT/Codex-Video-Generation/raw/refs/heads/main/demo/gflow-reels-studio-40s.mp4" controls playsinline poster="demo/poster.jpg" width="360"></video>
+
+[Watch or download the full 40-second demo](https://github.com/TangledDaunT/Codex-Video-Generation/raw/refs/heads/main/demo/gflow-reels-studio-40s.mp4).
 
 ## What the skill does
 
