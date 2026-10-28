@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Flow Reels Studio"
+  short_description: "Create Flow reels with preset voices and local finishing"
+  default_prompt: "Use $gflow-batch-video to create a reviewed Reel with a selected native Flow preset voice, synchronized captions, and local visible-logo removal."

@@ -1,0 +1,14 @@
+# Production through the selected browser MCP
+
+Use this when the user chooses the ChatGPT in-app browser or another supported browser surface. Follow that browser tool's current documentation, safety checks, upload/download mechanisms and visibility rules. Do not use shell-driven browser automation, hidden APIs or raw network requests to replace visible production controls.
+
+1. Bind the requested tab or create a Flow tab in the requested browser. Read current state and verify the intended account from its visible account label. A signed-in browser and an independently configured Chrome MCP session are different sessions.
+2. Preserve the existing project when it is the right one. Record its URL privately. Discover WebMCP tools if the page exposes them, and use only the returned tools and schemas. If none exist, operate the observed UI through the browser MCP; do not claim page-defined MCP capabilities.
+3. Inspect the live model, Video mode, Ingredients, aspect, supported duration, resolution and output count. Select the native preset before any video. Attach the same actual voice and approved reference images for each speaking scene; inspect enabled chips before submit.
+4. Prefer an atomic supported fill/paste for a full prompt. In Flow, typing a literal `@` can open an asset search and divert subsequent text into that field. If this happens, dismiss the picker, inspect the composer and restore the complete prompt. An already attached voice can be named plainly in the prompt; a mention alone is not attachment.
+5. Asset selection can add immediately or show an explicit “Add to prompt” action. Inspect state after selection rather than clicking a stale action. Use actual file inputs/file choosers for uploads; verify the resulting attachments. Existing asset references must be matched to the correct image, not merely an ambiguous generated title.
+6. Submit only an authorized scene, capture its prompt/settings/credit quote and actual rendering evidence, then prepare the next independent scene. Serialize composer operations. A list of queued prompts is not a native multi-prompt batch API.
+7. Download the specific completed output. Register a download wait before clicking a real download action. A resolution menu opening is not a download. Re-read a refreshed menu before selecting native size; do not accidentally trigger an upscale. Confirm a real nonempty local file and inspect it.
+8. Keep the first two reusable scenes for the voice/performance review, then generate the approved remainder. Finish locally, including synchronized captions and visible Gemini-logo repair. Preserve the selected browser/project as a useful deliverable where supported.
+
+If browser policy blocks an action, obey the block; do not recreate it through another surface or protocol. For example, a blocked local `file:` browser tab can be replaced by a native Codex media/file preview, not a localhost server devised to evade that block.

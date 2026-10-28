@@ -1,0 +1,19 @@
+# Account/session data and production artifacts must stay private
+.env
+.env.*
+!.env.example
+**/local-configuration.md
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+production.json
+runs/
+outputs/
+downloads/
+profiles/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.ppm
